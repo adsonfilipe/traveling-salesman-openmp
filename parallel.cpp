@@ -132,8 +132,8 @@ int main()
 		cost = new int*[V];
 		for(int i = 0; i < V; i++)
 		{
-			adj[i] = new int[V];
-			cost[i] = new int[V];
+			adj[i] = new int[V]();
+			cost[i] = new int[V]();
 		}
 		
 		for(int i = 0; i < E; i++)
